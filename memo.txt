@@ -1,0 +1,12 @@
+source [newenvname]/bin/activate
+deactivate
+pip freeze # 作成した環境にインストールされているパッケージの確認
+
+# venvの作り方
+https://qiita.com/fiftystorm36/items/b2fd47cf32c7694adc2e
+# langchainの使い方
+https://zenn.dev/umi_mori/books/prompt-engineer/viewer/langchain_overview
+
+!pip install openai==1.13.3
+!pip install langchain==0.1.11
+!pip install langchain-openai==0.0.8
